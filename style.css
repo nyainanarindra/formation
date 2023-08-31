@@ -1,0 +1,142 @@
+/*font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zen Dots', cursive;*/
+
+* {
+  box-sizing: border-box;
+}
+.cert-wrapper {
+  width: 1200px;
+  height: 760px;
+  background: #000000 url("./img/bg.png") no-repeat center center;
+  background-size: cover;
+  padding: 5px;
+  font-family: "Zen Dots", cursive;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.cert-border-white {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #ffffff;
+  padding: 20px 15px;
+  position: relative;
+  z-index: 2;
+}
+.cert-border-thin {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+.cert-border-thin .cert-headlogo {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+.cert-border-thin span {
+  padding: 0 20px;
+  display: inline-block;
+}
+.cert-border-thin span img {
+  width: 170px;
+}
+
+.form-dipl .cert-headlogo img {
+  width: 200px;
+}
+.form-dipl .cert-headlogo {
+  margin: 10px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-dipl .cert-headlogo .date {
+  font-size: 18px;
+}
+
+.cert-title {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.form-dipl .cert-title {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.cert-corps {
+  text-align: left;
+  padding: 85px 80px 70px;
+  font-size: 17px;
+}
+.form-dipl .cert-corps div {
+  margin-bottom: 10px;
+}
+.form-dipl .cert-corps {
+  padding: 10px 80px 11px;
+  font-size: 16px;
+}
+
+.form-dipl .cert-corps .cert-mention {
+  margin-top: 20px;
+}
+
+.form-dipl .cert-corps span {
+  font-size: 35px;
+}
+
+.cert-corps .cert-mention {
+  margin-top: 48px;
+  line-height: 35px;
+}
+.cert-corps div {
+  line-height: 46px;
+}
+.cert-corps span {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+}
+
+.cert-border-thin footer {
+  display: flex;
+  justify-content: stretch;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.cert-border-thin footer div {
+  flex: 1;
+}
+
+.cert-border-thin footer .cert-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.cert-border-thin footer .cert-id div {
+  flex: 0;
+}
+
+.cert-border-thin footer .cert-sign div {
+  text-align: center;
+  font-weight: 900;
+  margin-top: -17px;
+  font-size: 18px;
+}
+.cert-border-thin footer .cert-sign div span {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.cert-border-thin footer .cert-tampon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 30px;
+}
+
+.form-text-center {
+  text-align: center;
+}
